@@ -1,0 +1,47 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ArcticRegions
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: George Philip
+    family-names: LeBourdais
+    email: gp@didametic.com
+    orcid: 'https://orcid.org/0009-0000-4352-462X'
+  - name: Stanford University
+    address: >-
+      Wallenberg Hall, 4th Floor 450 Jane Stanford Way,
+      Building 160
+    city: Stanford
+    country: US
+    post-code: '94305'
+    location: Stanford University
+    website: 'https://cesta.stanford.edu/about/contact-us'
+identifiers:
+  - type: url
+    value: >-
+      https://web.stanford.edu/group/spatialhistory/ArcticRegions/index.html
+    description: 'Tracing The Arctic Regions, Digital Mapping Project'
+repository-code: 'https://github.com/alyvann/ArcticRegions'
+url: >-
+  https://web.stanford.edu/group/spatialhistory/ArcticRegions/index.html
+abstract: >-
+  “Tracing The Arctic Regions” is a digital humanities
+  project that considers a historic "art expedition to
+  Greenland" in the summer of 1869, the 140 photographs that
+  document it, and how they shaped nineteenth-century
+  America's understanding of Arctic space and time.
+  Developed at the Center for Spatial and Textual Analysis
+  (CESTA), the project grew out of Dr. George Philip
+  LeBourdais' dissertation in the Department of Art & Art
+  History at Stanford University.
+keywords:
+  - Cartography
+  - Digital Humanities
+  - Art History
+  - Arctic Studies
+license: GPL-3.0
