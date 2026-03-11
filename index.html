@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Arctic Regions</title>
-
+    
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
 
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +25,9 @@
 
     <!-- navigation -->
     <nav id="nav" class="navbar navbar-fixed-top navbar-book">
+              <a class="navbar-brand" style="padding:0px;" href="https://cesta.stanford.edu">
+            <img alt="Brand" src="images/cesta_logo_b-01.png" height="100%" style="overflow:hidden;"/>
+          </a>
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,39 +36,55 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="assets/cesta-logos/CestaLogo_bw.svg" height="100%"/>
-          </a>
-          <a class="navbar-brand" href="index.html">TRACING THE ARCTIC REGIONS</a>
+
+          <a class="navbar-brand" href="index.html" style='margin-left:0px;font-weight:300;font-family:"Lato",sans-serif;'>TRACING THE ARCTIC REGIONS</a>
         </div>
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
 
-            <li><a href="project-description.html">Project Description</a></li>
+            <li><a href="project-description.html" style='font-weight:300;font-family:"Lato",sans-serif;'>Project Description</a></li>
             <!--<li><a href="contributors.html">Contributors</a></li>-->
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="intro-video-container">
 
-      <h1>
+
+  <div style="line-height:40px; margin-left: 22%; margin-top:50px; width:70%; position:absolute; z-index:100">
+  
+  <p style='line-height:20px;margin-top:30px;'><span style='font-size:11.5pt;font-weight:300;font-family:"Lato",sans-serif;valign:center;'>© 2019, Center for Spatial and Textual Analysis (CESTA), Stanford University<br>A digital publication by CESTA, 2019.11:1</span></p>
+
+  
+      <p style="font-size: 50px;margin-top:50px;font-weight:700;">
         Tracing The Arctic Regions
-      </h1>
-
-      <h2>
+      </p>
+      <p style="font-size: 35px;font-weight:400i;">
         Mapping William Bradford's 1869 Photography Expedition to Greenland
-      </h2>
+      </p>
+      <p style='line-height:25px;margin-top:50px;'><span style='font-size:11.5pt;font-weight:300;font-family:"Lato",sans-serif;'>Lead Author: </span><br><b><span
+style='font-size:14pt;font-weight:700;font-family:"Lato",sans-serif;'>George Philip LeBourdais</span></b><br>
+<span style='font-size:11.5pt;font-weight:300;font-family:"Lato",sans-serif;'>Contributors: </span><br><b><span
+style='font-size:13pt;font-weight:700;font-family:"Lato",sans-serif;'>Frank
+Zheng, Alyssa Vann, and Erik Steiner</b></span></p>
+<p style='line-height:20px;'><span style='font-size:11.5pt;font-family:"Lato",sans-serif;font-weight:300;'>With
+acknowledgement to:</span><br>
+<span style='font-size:11.0pt;font-weight:400;font-style:normal;font-family:"Lato",sans-serif;'>Nick Bauch, Celena Allen, Anne Knowles, Paul Jaskot, Susan Elizabeth Gagliardi,<br>David Medieros, Jason Heppler, Nicole Coleman, Amanda Wilson Bergado, and Brian Kersey</span></p>
+  </div>
+  <div>
+  
+</div>
 
-      <video id="intro-video" autoplay loop>
+<div id="intro-video-container" style="min-width:1500px"><span>
+      <video style="overflow:hidden;" id="intro-video" autoplay loop>
           <source src="assets/homepage.mp4" type="video/mp4" />
       </video>
+      </span>
     </div>
 
     <div id="homepage-text-outer">
-      <div id="homepage-text-inner">
+      <div style="width:900px; margin-left: 22%;">
         <p></p>
 
         <p>
@@ -100,9 +119,14 @@
         Using dynamic cartography, this site attempts to mirror the ambiguity of Arctic landscapes, which are both monolithic and ephemeral. The following essays and interactive map portray the sway between known and unknown that defined this space for in the nineteenth-century mind, an oscillation that continues in different ways today.
         </p>
 
+<p>
+<button class="btn btn-lg btn-success" onclick="window.location.href = 'narrative.html';">Begin Tour</button>
+<p>
+<p>
         <a href="narrative.html">
           <img id="book-image" src="images/HomePage_ArcticRegionsCover.jpg"/>
         </a>
+      </p>
       </div>
     </div>
 
