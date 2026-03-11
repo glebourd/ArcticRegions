@@ -30,7 +30,7 @@ html, body {
 
 .navbar-book .navbar-brand {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #333333;
@@ -38,7 +38,7 @@ html, body {
 
 .navbar-book .navbar-nav > li > a {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 13px;
     letter-spacing: 1px;
     color: #333333;
