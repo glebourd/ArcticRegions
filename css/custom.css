@@ -1,7 +1,10 @@
 
-html, body { 
+html, body {
    height: 100%;
    font-family: 'Crimson Text', serif;
+   color: #2a2a2a;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 
 #cover {
@@ -15,11 +18,34 @@ html, body {
 }
 
 #nav a {
-    color: black;
+    color: #333333;
 }
 
 .navbar-book {
     background-color: #e0d7b8;
+    border-bottom: 1px solid #c9c0a0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    min-height: 50px;
+}
+
+.navbar-book .navbar-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.navbar-book .navbar-nav > li > a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.navbar-book .navbar-nav > li > a:hover {
+    color: #a81c1c;
 }
 
 h1 {
@@ -27,6 +53,7 @@ h1 {
     font-size: 250%;
     margin-left: 5%;
     width: 100%;
+    line-height: 1.2;
 }
 
 h0 {
@@ -42,6 +69,7 @@ p {
     margin-left: 5%;
     font-size: 150%;
     width: 100%;
+    line-height: 1.7;
 }
 
 sup {
@@ -153,12 +181,28 @@ figcaption {
 	margin-bottom: 10px;
 }
 
-/*#book-image {
+#homepage-text-outer {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+#homepage-text-outer p {
+	line-height: 1.8;
+	color: #2a2a2a;
+}
+
+#book-image {
     display: block;
-    margin: auto;
-    width: 40%;
-    padding-top: 10px;
-}*/
+    width: 100%;
+    max-width: 700px;
+    margin-top: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
+
+#book-image:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
 
 
   /************/
@@ -262,7 +306,8 @@ figcaption {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #222;
+	background-color: #1a1a1a;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .thumbnail-img-div {
@@ -291,6 +336,14 @@ figcaption {
 
 .thumbnail-img {
     max-height: 95%;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.thumbnail-img:hover {
+    transform: scale(1.05);
+    opacity: 1.0;
 }
 
 #main-image-div {
@@ -366,8 +419,11 @@ figcaption {
 
 #footer {
     z-index: 200;
-    height: 6%;
+    height: auto;
+    padding: 12px 0;
     width: 100%;
+    background-color: #e0d7b8;
+    border-top: 1px solid #c9c0a0;
     box-shadow: 0px 500px 0px 500px #e0d7b8;
 }
 
@@ -421,10 +477,24 @@ figcaption {
     /*justify-content: center;*/
 }
 
+.modal-content {
+	background-color: #111111;
+	border: none;
+	border-radius: 0;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+.modal-body img {
+	width: 100%;
+}
+
 .modal-dialog {
 	position: relative;
     display: table;
-    overflow-y: auto;    
+    overflow-y: auto;
     overflow-x: auto;
     width: auto;
 }
